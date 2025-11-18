@@ -1,0 +1,2 @@
+# arcana
+Ayudador ideístico
