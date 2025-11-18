@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>Arcana — Tiradas</title>
+  <link rel="stylesheet" href="arcana.css">
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div class="brand-wrap">
+        <h1 class="brand">Arcana</h1>
+        <p class="subtitle">Tiradas rápidas • mobile first</p>
+      </div>
+      <div class="controls">
+        <button id="newRoll" class="btn primary large" aria-controls="picker">NUEVA TIRADA</button>
+        <button id="rollBtn" class="btn purple large" title="Tirar" aria-label="Tirar">TIRAR</button>
+      </div>
+    </header>
+
+    <section id="picker" class="panel hidden" aria-hidden="true">
+      <div class="panel-inner">
+        <div class="panel-header">
+          <h2>Elige cuántos dados</h2>
+          <p class="hint">Toca los tipos que quieras (mín 1 — máx 9)</p>
+        </div>
+
+        <div id="typesGrid" class="types-grid" role="list"></div>
+
+        
+      </div>
+    </section>
+
+    <section id="results" class="results hidden" aria-hidden="true">
+      <div class="results-inner">
+        <div id="resultsGrid" class="results-grid"></div>
+        <div class="results-actions">
+          <button id="backBtn" class="btn tertiary">VOLVER</button>
+          <button id="againBtn" class="btn primary">NUEVA TIRADA</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ (single toggle) -->
+    <section id="faq" class="faq">
+      <button id="faqToggle" class="btn faq-toggle">FAQ</button>
+      <div id="faqContent" class="faq-box hidden" aria-hidden="true">
+        <p>
+          Crear personajes (3 dados):
+        </p>
+        <p>
+          Núcleo psicológico
+        </p>
+        <p>
+          Conflicto
+        </p>
+        <p>
+          Camino narrativo
+        </p>
+
+        <p>
+          Desbloquear escenas (2–3 dados):
+        </p>
+        <p>
+          1º → Energía de la escena
+        </p>
+        <p>
+          2º → Cambio que ocurre
+        </p>
+        <p>
+          3º → Naturaleza del conflicto
+        </p>
+
+        <p>
+          Resolver líos narrativos:
+        </p>
+        <p>
+          Siempre usar Dado 3 (Desafío) + otro según el tipo de bloqueo
+          (emocional = 1, estructural = 2, temático = 8, ritmo = 7)
+        </p>
+
+        <p>
+          Generar trama completa (5 dados):
+        </p>
+        <p>
+          Incidente inicial → Obstáculo → Revelación → Giro → Resolución
+        </p>
+      </div>
+    </section>
+
+    <footer class="foot">
+      <small>Minimal • blanco y negro • táctil</small>
+    </footer>
+  </main>
+
+  <script src="arcana.js"></script>
+</body>
+</html>
