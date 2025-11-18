@@ -1,14 +1,15 @@
 // Mobile-first Arcana roller
 (function(){
   const TYPES = [
-    {key:'vinculo', label:'VÍNCULO', faces:['❤️','🤝','✨','🔗','💛']},
-    {key:'camino', label:'CAMINO', faces:['🛤️','🧭','🔀','➡️','🌄']},
-    {key:'desafio', label:'DESAFÍO', faces:['⛰️','⚠️','🔥','🪨','💥']},
-    {key:'idea', label:'IDEA', faces:['💡','✨','📣','🛡️','🔎']},
-    {key:'identidad', label:'IDENTIDAD', faces:['🧾','🎭','🏷️','🛠️','🔖']},
-    {key:'impulso', label:'IMPULSO', faces:['⚡','🏃','⏱️','🎉','✉️']},
-    {key:'verdad', label:'VERDAD', faces:['🔍','📜','🔬','🧩','✅']},
-    {key:'destino', label:'DESTINO', faces:['🧭','🚶','🗺️','⚓','🏁']}
+    {key:'vinculo', label:'VÍNCULO', faces:['❤️','🎁','✉️','📷','🚗', '🛶']},
+    {key:'camino', label:'CAMINO', faces:['➡️','🌠','🏛️','🔥','🛋️', '🚲']},
+    {key:'desafio', label:'DESAFÍO', faces:['⛰️','🌧️','🌳','🔒','🔨', '🎯']},
+    {key:'idea', label:'IDEA', faces:['💡','📎','🍰','🐦','🔭', '☂️']},
+    {key:'identidad', label:'IDENTIDAD', faces:['👣','🖌️','🩺','⛺','☎️', '🏆']},
+    {key:'impulso', label:'SENSORIAL', faces:['🏠','⤴️','💎','⚽','🎥', '🏖️']},
+    {key:'impulso', label:'IMPULSO', faces:['🎵','✈️','⏱️','🔧','✉️', '🎈']},
+    {key:'verdad', label:'VERDAD', faces:['🔑','🐈','🔍','🏭','☀️', '📏']},
+    {key:'destino', label:'DESTINO', faces:['🔦','🗼','🌍','🐕','🍽️', '⛵']}
   ];
 
   const INFO = {
@@ -17,6 +18,7 @@
     desafio: 'Obstáculos, trauma, resistencia, disciplina.',
     idea: 'Inspiración, comunicación, protección, revelaciones.',
     identidad: 'Profesión, rol, propósito, vocación, huella personal.',
+    sensorial: 'Entorno físico, hogar, lujo, viaje, ocio, textura del mundo.',
     impulso: 'Acción, tiempo, reparación, comunicación, celebración.',
     verdad: 'Revelación, normas, investigación, producción, autenticidad interior.',
     destino: 'Camino vital, caída, exploración, lealtad, viaje y consecuencias.'
