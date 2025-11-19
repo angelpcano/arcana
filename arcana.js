@@ -216,5 +216,11 @@
       t.click();
     }
   });
+  
+  
+  document.getElementById('reloadHome')?.addEventListener('click', (e)=>{
+  e.preventDefault();
+  window.location.reload();
+});
 
 })();
