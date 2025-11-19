@@ -101,3 +101,7 @@ body{
 .brand a:visited {
   color: inherit;
 }
+
+body.modal-open {
+  overflow: hidden;
+}
