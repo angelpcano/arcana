@@ -218,9 +218,17 @@
   });
   
   
-  document.getElementById('reloadHome')?.addEventListener('click', (e)=>{
+  document.getElementById("reloadHome")?.addEventListener("click", (e) => {
   e.preventDefault();
-  window.location.reload();
+
+  // Cierra la ventana de selección de dados si está abierta
+  const modal = document.querySelector(".dice-modal, .dice-selector, .overlay");
+  if (modal) {
+    modal.style.display = "none";
+  }
+
+  // Quita clases de "activo" si las usas
+  document.body.classList.remove("modal-open", "show-dice-selector");
 });
 
 })();
