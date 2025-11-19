@@ -6,7 +6,7 @@
     {key:'desafio', label:'DESAFÍO', faces:['⛰️','🌧️','🌳','🔒','🔨', '🎯']},
     {key:'idea', label:'IDEA', faces:['💡','📎','🍰','🐦','🔭', '☂️']},
     {key:'identidad', label:'IDENTIDAD', faces:['👣','🖌️','🩺','⛺','☎️', '🏆']},
-    {key:'impulso', label:'SENSORIAL', faces:['🏠','⤴️','💎','⚽','🎥', '🏖️']},
+    {key:'sensorial', label:'SENSORIAL', faces:['🏠','⤴️','💎','⚽','🎥', '🏖️']},
     {key:'impulso', label:'IMPULSO', faces:['🎵','✈️','⏱️','🔧','✉️', '🎈']},
     {key:'verdad', label:'VERDAD', faces:['🔑','🐈','🔍','🏭','☀️', '📏']},
     {key:'destino', label:'DESTINO', faces:['🔦','🗼','🌍','🐕','🍽️', '⛵']}
